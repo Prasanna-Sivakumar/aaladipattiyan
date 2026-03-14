@@ -1,0 +1,88 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins;
+}
+
+body{
+background:#fafafa;
+color:#333;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+padding:20px 60px;
+background:#8b0000;
+color:white;
+}
+
+nav a{
+margin-left:20px;
+color:white;
+text-decoration:none;
+}
+
+.hero{
+height:80vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+background:url("https://images.unsplash.com/photo-1504674900247-0877df9cc836") center/cover;
+color:white;
+text-align:center;
+}
+
+.hero h2{
+font-size:50px;
+}
+
+.btn{
+background:#ffcc00;
+padding:12px 30px;
+margin-top:20px;
+text-decoration:none;
+color:black;
+border-radius:5px;
+font-weight:600;
+}
+
+.section{
+padding:60px 100px;
+text-align:center;
+}
+
+.menu{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:30px;
+margin-top:30px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.reviews p{
+margin:20px;
+font-style:italic;
+}
+
+iframe{
+width:100%;
+height:350px;
+border:0;
+margin-top:20px;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#222;
+color:white;
+}
